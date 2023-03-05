@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.calculator-container{
+    display: grid;
+    grid-template-areas: 
+    "display display display display"
+    "clear clear percentage divide"
+    "7 8 9 asterisk"
+    "4 5 6 minus"
+    "1 2 3 plus"
+    "zero zero dot equal";
+    gap: 3px;
+    background-color: black;
+    font-size: 25px;
+    padding: 4px;
+    border: 7px solid black;
+    border-radius: 10px;
+    min-width: 400px;
+    height: 500px;
+}
+.calculator-container > button {
+    font-size: 25px;
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(120, 233, 109);
+}
+
+.display {
+    grid-area: display;
+    background-color: rgb(255, 255, 255);
+    padding-top: 15px;
+    min-height: 40px;
+    padding-right: 5px;
+    font-size: 33px;
+    text-align: end;
+    border-bottom: 7px solid black;
+}
+#clear-btn {
+    grid-area: clear;
+}
+#zero-btn{
+    grid-area: zero;
+}
+#clear-btn, #percentage-btn{
+    background-color: aqua;
+}
+#divide-btn, #multiply-btn, #minus-btn, #plus-btn, #equal-btn{
+    background-color: orange;
+}
+.calculator-container > button:active{
+    background-color: white !important;
+}
