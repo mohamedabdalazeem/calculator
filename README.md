@@ -10,7 +10,7 @@
 https://www.theodinproject.com/lessons/foundations-calculator
 ## Preview
 
-![App Screenshot](https://raw.githubusercontent.com/mohamedabdalazeem/calculator/main/Screenshot-calculator.png)
+![App Screenshot](https://github.com/mohamedabdalazeem/calculator/blob/main/Screenshot-calculator.png)
 
 ## Technologies:
 
